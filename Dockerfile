@@ -32,7 +32,7 @@ RUN dotnet publish src/Squidex/Squidex.csproj --output /out/alpine --configurati
 #
 # Stage 2, Build runtime
 #
-FROM microsoft/dotnet:2.2-runtime-deps-alpine
+FROM microsoft/dotnet:3.3-runtime-deps-alpine
 
 # Default AspNetCore directory
 WORKDIR /app
