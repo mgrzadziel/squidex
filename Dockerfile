@@ -1,7 +1,7 @@
 #
 # Stage 1, Prebuild
 #
-FROM squidex/dotnet:2.2-sdk-chromium-phantomjs-node as builder
+FROM squidex/dotnet:3.2-sdk-chromium-phantomjs-node as builder
 
 WORKDIR /src
 
